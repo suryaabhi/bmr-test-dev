@@ -21,7 +21,7 @@ body.dark,
 .dark .modal-content,
 .dark .css3-spinner,
 body.dark #side-panel,
-body #side-panel.dark { background-color: #383838; }
+body #side-panel.dark { background-color: #000000; }
 
 .dark .css3-spinner > div,
 .dark .css3-spinner-grid-pulse > div,
