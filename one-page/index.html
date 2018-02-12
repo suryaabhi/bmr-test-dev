@@ -29,6 +29,53 @@
 	<link rel="stylesheet" href="../css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<!-- Document Title
+	============================================= -->
+	<title>Outdoors - One Page Module | Canvas</title>
+
+	<style>
+		.play-icon {
+			position: relative;
+			display: block;
+			font-size: 28px;
+			width: 60px;
+			height: 60px;
+			line-height: 62px;
+			left: 50%;
+			margin-left: -30px;
+			border-radius: 50%;
+			color: #267DF4 !important;
+			background-color: #FFF;
+			-webkit-transition: transform .3s ease;
+			-o-transition: transform .3s ease;
+			transition: transform .3s ease;
+		}
+
+		.play-icon i {
+			position: relative;
+			left: 4px;"
+		}
+
+		.play-icon:hover {
+			-webkit-transform: scale(1.15);
+			-ms-transform: scale(1.15);
+			-o-transform: scale(1.15);
+			transform: scale(1.15);
+		}
+
+		body.device-xl .onepage-outdoor-negetive,
+		body.device-lg .onepage-outdoor-negetive { margin-top: -300px; }
+
+		@media (min-width: 768px) {
+			#slider h2 { font-size: 52px; }
+
+			.text-overlay-title h3 {
+				font-size: 22px;
+				letter-spacing: 1px;
+				font-weight: 600;
+			}
+		}
+	</style>
 
 </head>
 
@@ -60,8 +107,8 @@
 					<nav id="primary-menu">
 
 						<ul data-easing="easeInOutExpo" data-speed="1250" data-offset="60">
-							<li><a href="index.html" data-href="#wrapper"><div>Home</div></a></li>
-							<li><a href="#" data-href="#section-about"><div>About</div></a></li>
+							<li><a href="#" data-href="#wrapper"><div>Home</div></a></li>
+							<li><a href="about.html" data-href="#section-about"><div>About</div></a></li>
 						</ul>
 
 						<ul data-easing="easeInOutExpo" data-speed="1250" data-offset="60">
@@ -77,43 +124,50 @@
 
 		</header><!-- #header end -->
 
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element dark swiper_wrapper clearfix" style="height: 900px;" data-effect="fade" data-autoplay="5000" data-loop="true" data-speed="1000" data-progress="true">
+
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide dark" style="background-image: url('images/page/outdoor.jpg'); background-position: center bottom; height: 900px;"></div>
+					<div class="swiper-slide dark" style="background-image: url('images/page/outdoor-2.jpg'); background-position: center bottom; height: 900px;"></div>
+					<div class="swiper-slide dark" style="background-image: url('images/page/outdoor-3.jpg'); background-position: center bottom; height: 900px;"></div>
+				</div>
+			</div>
+
+			<div class="vertical-middle container center ignore-header clearfix" style="z-index: 1;">
+				<h2 class="t700 nobottommargin" style="font-family: 'Playfair Display';">Welcome to BMR Realty Services</h2>
+				<p class="ls1 t300">We care for you.</p>
+			</div>
+
+		</section><!-- #slider end -->
 
 		<!-- Content
 		============================================= -->
-		<section id="content"  style="background-color: #000000; overflow: visible; z-index: 1">
+		<section id="content" style="background-color: #000000; overflow: visible; z-index: 1">
 
 			<div class="content-wrap">
 
-				<div class="onepage">
+				<div class="onepage-outdoor-negetive">
 					<div class="container center clearfix">
 						<div class="heading-block divcenter nobottomborder" style="max-width: 600px">
-							<h1 class="nott ls0 t500">ABOUT US</h1>
-							<span style="font-size: 16px; color: rgba(255,255,255,0.5);">BMR Realty Services is an elite property monitoring, management and consulting firm founded with a spirit of integrity and partnership with our team, and most importantly, our clients.<br/><br/>
-							Our highly skilled team has performed hundreds of property assessments for corporations, large and small. We have helped our clients obtain a peace of mind with monitoring and securing their property. But most importantly, each team member has been trusted to provide ongoing and reliable property advisory solutions to our client's evolving security and business needs.
-							</span>
+							<h2 class="nott ls0 t500">What do we do?</h2>
+							<span style="font-size: 16px; color: rgba(255,255,255,0.5);">BMR Realty is engaged in providing property services for individuals and corporates with corporate office in Hyderabad. We are a team of experienced professionals with quality consciousness, commitment and an overall professional approach at all levels. We understand, analyze and provide customized services for our clients. We have the required knowledge and skills to add value to your property.</span>
+						</div>					
+						
+						<div class="clear line"></div>
 
+						<div class="heading-block divcenter nobottomborder" style="max-width: 600px">
+							<h2 class="nott ls0 t500">Why us?</h2>
+							<span style="font-size: 16px; color: rgba(255,255,255,0.5);">You can trust BMR Realty team to function with highest level of ethical and professional standards by keeping our client’s interests first. We create value for our clients through our thorough knowledge of the market and the properties we represent. We believe our success is directly linked to the quality of service we deliver, we are extremely responsive to client requests, and seek to understand needs and priorities and work persistently in delivering winning results for our clients. We use only trustworthy professionals with hands-on experience in their particular field. We will allocate your tasks to someone with appropriate skills and training, project managed by an experienced professional, familiar with your objectives, who will keep you updated with regular progress reports. All you need to do is tell us what you’re looking for and we will do the rest to fit your requirements. Honesty is very important and we will only promise what we can deliver.</span>
 						</div>
 
 						<div class="clear line"></div>
 
-						<div class="heading-block divcenter nobottomborder" style="max-width: 600px">
-							<h1 class="nott ls0 t500">OUR VISION</h1>
-							<span style="font-size: 16px; color: rgba(255,255,255,0.5);">Delivering trustworthy experiences that you cherish for a lifetime.  We aim to establish a reliable partnership with you to protect your property and as your trusted property advisors, we specialize in identifying threats that may exploit your property. We work with you to develop a reliable plan for remediation and to ultimately implement an in-depth defence strategy.
-							</span>
-
-						</div>
-
-						<div class="clear line"></div>
-
-						<div class="heading-block divcenter nobottomborder" style="max-width: 600px">
-							<h1 class="nott ls0 t500">OUR MISSION</h1>
-							<span style="font-size: 16px; color: rgba(255,255,255,0.5);">To be the first choice for our consumers and partners in their journey. We do that with data, design, technology, and above all the passion of our people while delivering value to our shareholders.
-							</span>
-
-						</div>	
-						<div class="clear line"></div>
+					</div>
 				</div>
-
+				
 			</div>
 
 		</section><!-- #content end -->
@@ -147,6 +201,7 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="../js/functions.js"></script>
+
 
 	</script><!-- Portfolio Script End -->
 
