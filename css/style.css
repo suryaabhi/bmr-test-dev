@@ -175,7 +175,7 @@ body {
 
 a {
     text-decoration: none !important;
-    color: #1ABC9C;
+    color: #0077a2;
 }
 
 a:hover {
@@ -10032,7 +10032,7 @@ body:not(.device-touch) .on-hover.i-overlay {
     height: 40px;
     font-size: 20px;
     line-height: 38px !important;
-    color: #555;
+    color: #fff;
     text-shadow: none;
     border: 1px solid #AAA;
     border-radius: 3px;
@@ -12003,7 +12003,7 @@ body:not(.device-touch) .team-overlay {
 .team-overlay:before {
     content: '';
     z-index: auto;
-    background-color: #FFF;
+    background-color: #ff0000;
     opacity: 0.75;
 }
 
@@ -13427,7 +13427,7 @@ input[type=checkbox]:not(:checked)+label.error {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #333;
+    color: #0077a2;
 }
 
 .emphasis-title h1,
@@ -13915,7 +13915,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 #gotoTop:hover {
-    background-color: #1ABC9C;
+    background-color: #0077a2;
 }
 
 
@@ -14274,7 +14274,7 @@ button.toast-close-button {
 
 #footer {
     position: relative;
-    background-color: #EEE;
+    background-color: #0077a2;
     border-top: 5px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -14343,7 +14343,8 @@ button.toast-close-button {
 
 #copyrights {
     padding: 40px 0;
-    background-color: #DDD;
+    color: #fff;
+    background-color: #0077a2;
     font-size: 14px;
     line-height: 1.8;
 }
