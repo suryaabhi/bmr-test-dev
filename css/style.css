@@ -169,13 +169,13 @@ li {
 
 body {
     line-height: 1.5;
-    color: #555;
+    color: #fff;
     font-family: 'Lato', sans-serif;
 }
 
 a {
     text-decoration: none !important;
-    color: #0077a2;
+    color: #fff;
 }
 
 a:hover {
@@ -205,7 +205,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #444;
+    color: #fff;
     font-weight: 600;
     line-height: 1.5;
     margin: 0 0 30px 0;
@@ -1473,6 +1473,7 @@ body.stretched #header.full-header .container {
 #primary-menu-trigger,
 #page-submenu-trigger {
     opacity: 0;
+    color: black;
     pointer-events: none;
     cursor: pointer;
     font-size: 14px;
@@ -14344,7 +14345,7 @@ button.toast-close-button {
 #copyrights {
     padding: 40px 0;
     color: #fff;
-    background-color: #0077a2;
+    background-color: #004c67;
     font-size: 14px;
     line-height: 1.8;
 }
